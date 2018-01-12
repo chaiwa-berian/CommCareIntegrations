@@ -1,4 +1,9 @@
 submit(
+    field("@", function(state) {
+      return {
+        "xmlns": "http://openrosa.org/formdesigner/C3478C08-ABB3-47FC-ADF1-A7788E28D565"
+      };
+    }),
     field("metadata", function(state){
       return {
         "username": "test",
